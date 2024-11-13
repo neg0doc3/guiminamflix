@@ -1,0 +1,46 @@
+body {
+    color: black;
+    background: orange;
+    margin: 0px;
+    font-family: "Permanent Marker", cursive;
+}
+
+header {
+    border-bottom: solid 1px rgb(0, 0, 0);
+    padding: 10px;
+    font-size: 17px;
+    color: rgb(0, 0, 0);
+}
+
+.chamada{
+    background: orange;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.chamada-texto{
+    margin-right: 5%;
+}
+
+h1{
+    font-size: 30px;
+}
+
+p {
+    font-size: 20px;
+}
+img {
+    height: 250px;
+}
+.categoria-videos {
+    display: flex;
+    overflow-x: auto;
+    gap: 20px;
+}
+
+section{
+    padding-left: 20px;
+    padding-right: 20px;
+}
